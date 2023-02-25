@@ -1,0 +1,48 @@
+body{
+    background-color: #d5e1ef;
+    
+}
+
+.top-container{
+     position: relative;
+     height: 350px;
+     width: 220px;
+     background-color: rgb(255, 255, 255);
+     padding: 10px;
+     border-radius: 15px;
+     /*margin: 100px 100px 0px 200px; */
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 50px;
+}
+.qr{
+    box-sizing: border-box;
+    width: 220px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.text1{
+    box-sizing: border-box;
+    width: 100%;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.text2{
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    width: 100%;
+    color: #363636;
+    font-size: smaller;
+}
+
+@media screen and (max-width: 500px) {
+    /* applies only if the screen is narrower than 500px */
+      .top-container {
+        zoom: 130%;
+      }
+    }
